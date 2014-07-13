@@ -1,0 +1,126 @@
+/* Main style */
+
+html, body {
+	height: 100%;
+}
+
+body {
+  	font-family: adobe-clean,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  	/* background: #999 url('../images/backgrounds/tree_bark.png') repeat top left scroll; */
+  	color: #333;
+  	margin: 0px;
+  	padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: sans-serif;
+  margin: 0px;
+  font-weight: normal;
+}
+
+#wrapper {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+#main {
+	/* height of the header area */
+	width: 100%;
+}
+
+/** login **/
+.form-signin {
+  max-width: 300px;
+  padding: 19px 29px 29px;
+  margin: 0 auto 20px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+          box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+  font-size: 16px;
+  height: auto;
+  margin-bottom: 15px;
+  padding: 7px 9px;
+}
+
+/** signup **/
+.form-signup {
+  max-width: 300px;
+  padding: 19px 29px 29px;
+  margin: 0 auto 20px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+          box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+.form-signup .form-signup-heading,
+.form-signup .checkbox {
+  margin-bottom: 10px;
+}
+.form-signup input[type="text"],
+.form-signup input[type="password"] {
+  font-size: 16px;
+  height: auto;
+  margin-bottom: 15px;
+  padding: 7px 9px;
+}
+
+
+.page {
+  margin: auto;
+  display: table;
+  height: 1200px;
+}
+
+@media (max-width: 767px) {
+  .page {
+    width: 100%;
+  }
+}
+
+.questions_header {
+  border-bottom-width: 0;
+  min-height: 20px;
+  border-bottom: 1px solid #e1e8ed;
+  margin: 0px;
+}
+
+.questions_header_text {
+  padding: 12px;
+}
+
+.module {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #e1e8ed;
+  padding: 10px;
+}
+
+
+
+
+
+
+
