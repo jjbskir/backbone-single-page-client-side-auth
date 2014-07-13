@@ -6,14 +6,14 @@ One way to implement authentication/authorization in single page Backbone applic
 Technology
 ------------
 
-| On The Server | On The Client  | 
-| ------------- | -------------- |
-| Express       | Bootstrap      |        
-| Mongoose      | Backbone.js    |        
-| Passport      | jQuery         |             
-| passport-remember-me      | Underscore.js  |             
-|          | backbone.routefilter   |             
-|        | jqueryvalidation      |             
+| On The Server 			| On The Client  		| 
+| ------------- 			| -------------- 		|
+| Express       			| Bootstrap      		|        
+| Mongoose      			| Backbone.js    		|        
+| Passport      			| jQuery         		|             
+| passport-remember-me      | Underscore.js  		|             
+| connect-mongo				| backbone.routefilter  |             
+|        					| jqueryvalidation  	|             
 
 Features
 ------------
