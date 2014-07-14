@@ -3,6 +3,20 @@ backbone-single-page-client-side-auth
 
 One way to implement authentication/authorization in single page Backbone application, with node.js/express on the server.
 
+To run the server locally, open a terminal, and navigate to the directory you cloned the project to. Make sure you have Node/NPM installed! Then run the following commands:
+
+```
+npm install
+npm start
+```
+
+Live Demo
+------------
+
+| Platform                       			| Username | Password |
+| ----------------------------------------- | -------- | -------- |
+| http://morning-tundra-8603.herokuapp.com/ | jjbskir  | password |
+
 Technology
 ------------
 
